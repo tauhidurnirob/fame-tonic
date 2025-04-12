@@ -6,9 +6,9 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <Box>
+    <Box sx={{ background: "#000000" }}>
       <Banner />
-      <Box maxWidth={"1240px"} mx={"auto"} px={3} >
+      <Box maxWidth={"1240px"} mx={"auto"} px={3}>
         <Header />
         <Hero />
       </Box>
