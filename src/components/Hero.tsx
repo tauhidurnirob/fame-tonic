@@ -63,7 +63,7 @@ const Hero = () => {
             Fametonic 2025 ©All Rights Reserved.
           </Typography>
         </Box>
-        <Box mt={4} maxWidth={{ xs: "100%", MD: "313px" }}>
+        <Box mt={4} maxWidth={{ xs: "100%", md: "313px" }}>
           <CustomButton text="Get Started" />
           <Typography
             fontSize={"12px"}
