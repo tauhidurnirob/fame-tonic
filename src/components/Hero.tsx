@@ -16,7 +16,7 @@ const Hero = () => {
       flexDirection={{ xs: "column-reverse", md: "row" }}
     >
       <Box zIndex={1} maxWidth={"530px"}>
-        <Typography variant="h1">
+        <Typography variant="h1" sx={{textAlign: {xs: "center", md: "left"}}}>
           Want to Turn Social Media Into a Profitable Career?{" "}
         </Typography>
         <Typography
@@ -29,7 +29,7 @@ const Hero = () => {
         >
           Discover your way to success with Fametonic:
         </Typography>
-        <Box component="ul" mt={3}>
+        <Box component="ul" mt={3} sx={{textAlign: {xs: "center", md: "left"}}}>
           {features.map((feature, index) => (
             <Box
               component="li"
