@@ -42,7 +42,7 @@ const Hero = () => {
                 gap: 1,
               }}
             >
-              <Typography fontSize={"22px"}>✨</Typography>
+              <Typography fontSize={"20px"}>✨</Typography>
               <Typography fontSize={"16px"} fontWeight={600}>
                 {feature}
               </Typography>
